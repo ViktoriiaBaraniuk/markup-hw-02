@@ -8,13 +8,18 @@
 }
 body {
     background-color: var(--primary-bg-color);
+    color: var(--main-text-color);
+
+    font-family: 'Roboto', sans-serif;
 }
+
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
+
 .logo {
     text-decoration: none;
     color: var(--accent-color);
@@ -26,6 +31,9 @@ body {
 .site-nav .link{
     color: var(--title-text-color);
 }
+.site-nav .current {
+    color: var(--accent-color);
+}
 .auth-nav .link{
     color: var(--main-text-color);
 }
@@ -36,9 +44,26 @@ body {
  .button {
     background-color: var(--accent-color);
     color: var(--white-text-color);
-    border-color: transparent;
-    border-radius: 4px;
- }
+    border: none;
+}
  .title {
     color: var(--title-text-color);
- }
+}
+
+
+/* Portfolio */
+.portfolio .link {
+    color: var(--main-text-color);
+}
+.btn {
+    border: none;
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    cursor: pointer;
+    
+}
+.btn:hover, .btn:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    
+}
