@@ -6,3 +6,39 @@
     --white-text-color: #FFFFFF;
     --accent-color: #2196F3;
 }
+body {
+    background-color: var(--primary-bg-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+.logo-part {
+    color: var(--title-text-color);
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+.auth-nav .link{
+    color: var(--main-text-color);
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+ .button {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    border-color: transparent;
+    border-radius: 4px;
+ }
+ .title {
+    color: var(--title-text-color);
+ }
